@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="demo.app.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="net.innoflash.paytec" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>His Word</name>
     <description>
        This app is designed to spread the word of God
     </description>
-    <author email="email@gmail.com" href="https://website.net">
-        Developer name
+    <author email="innocentmazando@gmail.com" href="https://innoflash.net">
+       Innocent Mazando
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
