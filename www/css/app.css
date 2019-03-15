@@ -1,0 +1,159 @@
+@font-face {
+    font-family: appFont;
+    src: url("../fonts/centurygothic.ttf");
+}
+
+body {
+    font-family: appFont;
+}
+
+.car .item-media .fa {
+    color: #0074BD;
+}
+
+#myCar .item-title, #myCar .item-media {
+    color: #0074BD;
+}
+
+.navbar .title {
+    color: #000000;
+}
+
+.page-previous {
+    display: none;
+}
+
+.home-icons {
+    width: 100%;
+}
+
+.shooper .title {
+    color: #9A0A1F;
+}
+
+.navbar a, .back {
+    color: #9A0A1F;
+}
+
+.user_panel {
+    background: rgba(192, 1, 13, 0.95);
+    margin: 0 auto;
+    margin-top: -20px;
+    padding: 20px;
+
+}
+
+.user_panel h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.wrap_content {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 55px;
+
+}
+
+#logo {
+    display: block;
+    width: 100px;
+    border: 5px solid #dfdfdf;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    /*  position: relative;*/
+    border-radius: 120px;
+}
+
+#ad_image {
+    position: absolute;
+    bottom: 0px;
+    padding: 4px;
+    width: 100%;
+}
+
+#indexPage {
+    background-image: url("../img/index_bg.jpg");
+    background-size: cover;
+}
+
+.card .item-media i {
+    color: #9A0A1F;
+    font-size: 25px;
+}
+
+.ios .item-media .icon {
+    color: #9A0A1F;
+}
+
+.bg-color-theme {
+    background: #9A0A1F;
+}
+
+.answer {
+    padding-top: 4px;
+}
+
+.uppertext {
+    text-transform: uppercase;
+}
+
+#loadMore {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+}
+.padBottom{
+    padding-bottom: 70px;
+}
+
+.page-previous {
+    display: none;
+}
+
+.indexPage {
+    background: url(../img/index_bg.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.home-icons {
+    width: 100%;
+}
+
+.chip-media .icon {
+    color: #7a0026;
+}
+.bg-color-theme{
+    background-color: #C0010D;
+}
+.answer {
+    padding-top: 4px;
+}
+.demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.demo-card-header-pic .card-content-padding .date{
+    color: #8e8e93;
+}
+.ios .block{
+    margin: 3px 0px;
+}
+.themed-text{
+    color: #7a0026;
+    font-weight: bold;
+}
+.links-list.icon{
+  color: #0074BD;
+}
+#storeMap{
+    width: 100%;
+    height: 100%;
+}

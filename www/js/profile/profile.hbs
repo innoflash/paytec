@@ -1,0 +1,115 @@
+{{#if this}}
+    <div class="row no-gutter">
+        <div class="col-25"></div>
+        <div class="col-50 tablet-100">
+            <br/>
+            <img class="full-width-image profile-pic" alt="profile photo" src="{{ picture }}" id="user_image">
+        </div>
+        <div class="col-25"></div>
+    </div>
+    <div class="block-title">
+        Profile Details
+    </div>
+    <div class="list inset">
+        <ul>
+            <li>
+                <a href="#" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons">person</i></div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div class="item-header">First Name</div>
+                            <b>
+                                {{ first_name }}
+                            </b>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons">person</i></div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div class="item-header">Last Name</div>
+                            <b>
+                                {{ last_name }}
+                            </b>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <a href="#" class="item-link item-content">
+                <div class="item-media"><i class="f7-icons">person</i></div>
+                <div class="item-inner">
+                    <div class="item-title">
+                        <div class="item-header">User ID</div>
+                        <b>
+                            {{ user_id }}
+                        </b>
+                    </div>
+                    <div class="item-after">
+                                        <span class="badge bg-color-theme">
+                                           <small>
+                                               important
+                                           </small>
+                                        </span>
+                    </div>
+                </div>
+            </a>
+            </li>
+            <li>
+                <a href="#" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons">person</i></div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div class="item-header">Age</div>
+                            <b>
+                                {{ age }}
+                            </b>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons">email</i></div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div class="item-header">Email</div>
+                            <b>
+                                {{ email }}
+                            </b>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons">phone</i></div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div class="item-header">Phone</div>
+                            <b>
+                                {{ phone }}
+                            </b>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="item-link item-content">
+                    <div class="item-media"><i class="f7-icons">{{checkAuth auth_side}}</i></div>
+                    <div class="item-inner">
+                        <div class="item-title">
+                            <div class="item-header">Authentication</div>
+                            <b>
+                                {{ auth_side }}
+                            </b>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <input type="file" accept="image/*" id="profPic">
+{{/if}}

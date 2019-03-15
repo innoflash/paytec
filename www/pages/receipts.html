@@ -1,0 +1,25 @@
+<div class="page" data-name="receipts">
+    <!-- Top Navbar -->
+    <div class="navbar no-hairline">
+        <div class="navbar-inner r8em-navbar">
+            <div class="left">
+                <a href="#" class="back link">
+                    <i class="icon icon-back"></i>
+                    <span>Back</span>
+                </a>
+            </div>
+            <div class="title">RECIEPTS</div>
+            <div class="right">
+                <a href="javascript:void(0)" class="link icon-only" id="receiptsOptions">
+                    <i class="f7-icons">more_vertical</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="block-title" id="selectedReceipts">loading...</div>
+        <div id="myReceipts">
+        </div>
+        <a class="button button-raised button-fill" id="loadMore" newUrl="{{ this.meta.pagination.links.next }}">LOAD MORE</a>
+    </div>
+</div>

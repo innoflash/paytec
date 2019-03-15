@@ -1,0 +1,44 @@
+{{#if this}}
+    {{#each this.data}}
+        <div class="card">
+            <div class="card-content card-content-padding">
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="/receipt/{{ id }}" class="item-link item-content">
+                                <div class="item-media"><i class="icon fa fa-print"></i></div>
+                                <div class="item-inner">
+                                    <div class="item-title">
+                                        <div class="item-header uppertext">
+                                            {{ retailer }}
+                                        </div>
+                                        | {{ date }}
+                                        <div class="item-footer">
+                                            reciept
+                                        </div>
+                                    </div>
+                                    <div class="item-after">
+                                        <span class="badge color-orange">
+                                            {{ time }}
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="chip">
+                    <div class="chip-media bg-color-theme">
+                        <i class="icon f7-icons ios-only color-white">arrow_right</i>
+                        <i class="icon f7-icons md-only color-white">arrow_right</i>
+                    </div>
+                    <div class="chip-label">
+                        R {{ amount }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+{{/if}}
