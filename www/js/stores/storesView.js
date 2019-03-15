@@ -1,4 +1,4 @@
-define(['viewmaker'], function (ViewMaker) {
+define(['hbs!templates/stores'], function (storesTemplate) {
     var $$ = Dom7;
     var $ = jQuery;
 
@@ -7,10 +7,14 @@ define(['viewmaker'], function (ViewMaker) {
     }
 
     function fillStores(stores, callback) {
-        ViewMaker.renderTemplate('/templates/stores.hbs', stores, 'storesList', stores => {
+/*        ViewMaker.renderTemplate('/templates/stores.hbs', stores, 'storesList', stores => {
             if(typeof callback === 'function')
                 callback(stores)
-        });
+        });*/
+
+        $('#storesList').html(storesTemplate(stores))
+        if(typeof callback === 'function')
+            callback(stores)
     }
 
     function bindEvents(bindings) {
